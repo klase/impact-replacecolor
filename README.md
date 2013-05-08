@@ -14,5 +14,5 @@ Usage
 -----
 
 - Copy replacecolor.js into your lib/plugins folder
-- Add 'plugins.replacecolor' to the requires section
+- Add 'plugins.replacecolor' to the requires section in your game module
 - When instantiating a new animation or image, append the path with the hex color you want followed by the color to be replaced: new ig.AnimationSheet( 'media/player.png#ff0000#00ff4e', 64, 64 )
